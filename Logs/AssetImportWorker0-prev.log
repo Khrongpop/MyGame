@@ -1,0 +1,2049 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/muang/Documents/muang/Unity/MyGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52211
+Successfully changed project path to: /Users/muang/Documents/muang/Unity/MyGame
+/Users/muang/Documents/muang/Unity/MyGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/muang/Documents/muang/Unity/MyGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-05-30 17:48:13.346 Unity[8655:162428] (null) preferred device: Apple M1 (high power)
+2021-05-30 17:48:13.346 Unity[8655:162428] Metal devices available: 1
+2021-05-30 17:48:13.346 Unity[8655:162428] 0: Apple M1 (high power)
+2021-05-30 17:48:13.346 Unity[8655:162428] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56655
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000342 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 84.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.471 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.029 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.4 MB.
+System memory in use after: 167.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3207.
+Total: 2.147916 ms (FindLiveObjects: 0.163042 ms CreateObjectMapping: 0.061792 ms MarkObjects: 1.861042 ms  DeleteObjects: 0.061209 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(4f75746138ff04240b89e989d577879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(4f75746138ff04240b89e989d577879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318f086785f67b8b7b49bca0d3b61c41') in 0.233400 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001921 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2760 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.8 MB.
+System memory in use after: 172.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 1.451167 ms (FindLiveObjects: 0.157625 ms CreateObjectMapping: 0.061167 ms MarkObjects: 1.213250 ms  DeleteObjects: 0.017958 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.147509 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(4f75746138ff04240b89e989d577879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(4f75746138ff04240b89e989d577879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f74ea46add7a4fdb247c8108a782831') in 0.007033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2760 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.1 MB.
+System memory in use after: 172.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3213.
+Total: 1.957417 ms (FindLiveObjects: 0.182792 ms CreateObjectMapping: 0.062208 ms MarkObjects: 1.687666 ms  DeleteObjects: 0.022959 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001051 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2760 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 1.318584 ms (FindLiveObjects: 0.115500 ms CreateObjectMapping: 0.058125 ms MarkObjects: 1.131459 ms  DeleteObjects: 0.012542 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.605139 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(4f75746138ff04240b89e989d577879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(4f75746138ff04240b89e989d577879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f43d59de460297b1623ba23a2d8908d') in 0.005933 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001889 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.035 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.5 MB.
+System memory in use after: 172.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3220.
+Total: 1.401500 ms (FindLiveObjects: 0.132917 ms CreateObjectMapping: 0.054583 ms MarkObjects: 1.198458 ms  DeleteObjects: 0.014458 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001791 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.7 MB.
+System memory in use after: 172.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 1.393959 ms (FindLiveObjects: 0.120958 ms CreateObjectMapping: 0.056042 ms MarkObjects: 1.201042 ms  DeleteObjects: 0.015042 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002495 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 1.492041 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.058708 ms MarkObjects: 1.265250 ms  DeleteObjects: 0.015125 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004397 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.2 MB.
+System memory in use after: 173.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 1.319375 ms (FindLiveObjects: 0.101834 ms CreateObjectMapping: 0.054792 ms MarkObjects: 1.146000 ms  DeleteObjects: 0.015708 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.4 MB.
+System memory in use after: 173.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 1.406250 ms (FindLiveObjects: 0.123625 ms CreateObjectMapping: 0.056333 ms MarkObjects: 1.211750 ms  DeleteObjects: 0.013584 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001858 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.6 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3235.
+Total: 1.755709 ms (FindLiveObjects: 0.171833 ms CreateObjectMapping: 0.064209 ms MarkObjects: 1.502333 ms  DeleteObjects: 0.016333 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001863 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.8 MB.
+System memory in use after: 174.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3238.
+Total: 1.392792 ms (FindLiveObjects: 0.125292 ms CreateObjectMapping: 0.056667 ms MarkObjects: 1.192541 ms  DeleteObjects: 0.017291 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.9 MB.
+System memory in use after: 174.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3241.
+Total: 1.311250 ms (FindLiveObjects: 0.113667 ms CreateObjectMapping: 0.053333 ms MarkObjects: 1.128167 ms  DeleteObjects: 0.015041 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 891.849350 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c107eeb19381441baa0ec6b469506d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c107eeb19381441baa0ec6b469506d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0ea40ffbffc764539a61102a4932ce') in 0.007807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.018586 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbc67d459727a44cb870997adc49f7b') in 0.629838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.454094 seconds.
+  path: Assets/Scripts/GroundSpawner.cs
+  artifactKey: Guid(59f7599fadd2b4b9192f678edffaa64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundSpawner.cs using Guid(59f7599fadd2b4b9192f678edffaa64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04699898a6a0222f0260211196d4dd0d') in 0.001533 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.6 MB.
+System memory in use after: 182.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3253.
+Total: 1.306416 ms (FindLiveObjects: 0.108834 ms CreateObjectMapping: 0.052375 ms MarkObjects: 1.127667 ms  DeleteObjects: 0.016667 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.8 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3256.
+Total: 1.397709 ms (FindLiveObjects: 0.128041 ms CreateObjectMapping: 0.062833 ms MarkObjects: 1.189042 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.674935 seconds.
+  path: Assets/Scripts/GroundSpawner.cs
+  artifactKey: Guid(59f7599fadd2b4b9192f678edffaa64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundSpawner.cs using Guid(59f7599fadd2b4b9192f678edffaa64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e311833e6d98a522a279ba574760c55c') in 0.005799 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001416 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.0 MB.
+System memory in use after: 183.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3260.
+Total: 1.393708 ms (FindLiveObjects: 0.127416 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.188542 ms  DeleteObjects: 0.020375 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.676487 seconds.
+  path: Assets/GroundSpwner.cs
+  artifactKey: Guid(36e9b079c4c1448c9bdc1e5926e89690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GroundSpwner.cs using Guid(36e9b079c4c1448c9bdc1e5926e89690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2befe8d930ecfbf45f4bd271235af507') in 0.007114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.2 MB.
+System memory in use after: 183.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 1.436500 ms (FindLiveObjects: 0.135416 ms CreateObjectMapping: 0.073667 ms MarkObjects: 1.210916 ms  DeleteObjects: 0.015792 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001009 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.3 MB.
+System memory in use after: 183.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3265.
+Total: 1.398458 ms (FindLiveObjects: 0.128250 ms CreateObjectMapping: 0.058292 ms MarkObjects: 1.192125 ms  DeleteObjects: 0.018917 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001903 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.5 MB.
+System memory in use after: 183.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3268.
+Total: 1.429750 ms (FindLiveObjects: 0.145459 ms CreateObjectMapping: 0.061792 ms MarkObjects: 1.202625 ms  DeleteObjects: 0.018750 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 531.578838 seconds.
+  path: Assets/Scripts/GroundTile.cs
+  artifactKey: Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundTile.cs using Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adcb948924df7760013be04ab6d5ad3') in 0.007774 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001887 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 184.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3272.
+Total: 1.325708 ms (FindLiveObjects: 0.117417 ms CreateObjectMapping: 0.057292 ms MarkObjects: 1.136875 ms  DeleteObjects: 0.013208 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.546032 seconds.
+  path: Assets/Scripts/GroundTile.cs
+  artifactKey: Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundTile.cs using Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80dc3b88e1d4c40d4ae92ce01286982') in 0.007795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.238799 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d86dd6be51faf07f737a9e431c78a5') in 0.151254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.634803 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5994eeca2f35a6c87329e25dc8a1cfed') in 0.012751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.711782 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54579268a16699153f097039bfb01f71') in 0.009874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.510201 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba894da57d5eeb4414b40747ed3ea90') in 0.007051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.061513 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e7a0ad1913d5c777e91ac7ee80e6f6') in 0.007308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.636752 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a863981562b982ddc333aac588ec251') in 0.008103 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002135 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.017 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 184.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3276.
+Total: 1.346083 ms (FindLiveObjects: 0.116000 ms CreateObjectMapping: 0.056666 ms MarkObjects: 1.155500 ms  DeleteObjects: 0.016959 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001918 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3279.
+Total: 1.379750 ms (FindLiveObjects: 0.127000 ms CreateObjectMapping: 0.058583 ms MarkObjects: 1.179333 ms  DeleteObjects: 0.014042 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003510 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.4 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3282.
+Total: 1.357291 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.168250 ms  DeleteObjects: 0.012292 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001873 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3285.
+Total: 1.342416 ms (FindLiveObjects: 0.116542 ms CreateObjectMapping: 0.057041 ms MarkObjects: 1.154042 ms  DeleteObjects: 0.013791 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.227025 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62403e618a682136f9cf4c9dbc92b061') in 0.149610 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003599 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 1.368708 ms (FindLiveObjects: 0.133334 ms CreateObjectMapping: 0.058334 ms MarkObjects: 1.159750 ms  DeleteObjects: 0.016375 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 515.466177 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd72c2137cb1e18fab4bf22338fb7e42') in 0.184408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.049346 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e784f1008395da5ec84e30b72df38f58') in 0.013198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.866813 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72219305bd6cfec14166a9f31318e29') in 0.010196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.419862 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e342d909803dba4ae29fa7d4e3c5ccc6') in 0.007188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.463455 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6ce149268452a5f7fbc93aca97a070') in 0.008260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206975 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3770ed241c778e1ac7a47fbec30af3c4') in 0.007097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.660326 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618bf0d489c6b00248f30e78f8158462') in 0.006697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.428775 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc02592881f30c1e2aa331753221113') in 0.008226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.860076 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea30f4f89dafef10890116f147cd4c4') in 0.006734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 275.985458 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398d97e4692508f9c56170e4741c0f64') in 0.007919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.881721 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c044cb7a635ca4b1c8a46bbc19e19154') in 0.007025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.733125 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(47c28e1ae9f2d46afa28df07e0453bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(47c28e1ae9f2d46afa28df07e0453bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2adaeca5dcfbb738b2a5ff1d02cf9b') in 0.018531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.029975 seconds.
+  path: Assets/Scripts/GroundTile.cs
+  artifactKey: Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundTile.cs using Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53aaa1f703df9b1157b2bd2da1844ecc') in 0.001268 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001226 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3294.
+Total: 1.389833 ms (FindLiveObjects: 0.136833 ms CreateObjectMapping: 0.059583 ms MarkObjects: 1.174666 ms  DeleteObjects: 0.017792 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.861102 seconds.
+  path: Assets/Scripts/GroundTile.cs
+  artifactKey: Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundTile.cs using Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e95142d28f173c2c20cdaed1499a349') in 0.005800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.751112 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac07a6637076ae0c22865690881a797f') in 0.163290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.352144 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18a23a8b8002274a71ee906db96d651') in 0.013386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.5 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3298.
+Total: 1.466500 ms (FindLiveObjects: 0.150375 ms CreateObjectMapping: 0.060416 ms MarkObjects: 1.233125 ms  DeleteObjects: 0.021750 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002251 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.898 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.6 MB.
+System memory in use after: 185.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3301.
+Total: 1.389250 ms (FindLiveObjects: 0.120958 ms CreateObjectMapping: 0.065542 ms MarkObjects: 1.188916 ms  DeleteObjects: 0.012958 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3304.
+Total: 1.494833 ms (FindLiveObjects: 0.146417 ms CreateObjectMapping: 0.063291 ms MarkObjects: 1.267250 ms  DeleteObjects: 0.016916 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003058 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.0 MB.
+System memory in use after: 186.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3307.
+Total: 1.497250 ms (FindLiveObjects: 0.150167 ms CreateObjectMapping: 0.061542 ms MarkObjects: 1.265417 ms  DeleteObjects: 0.018875 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3310.
+Total: 1.422792 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.060958 ms MarkObjects: 1.200500 ms  DeleteObjects: 0.014792 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001018 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3313.
+Total: 1.437083 ms (FindLiveObjects: 0.134166 ms CreateObjectMapping: 0.058834 ms MarkObjects: 1.228750 ms  DeleteObjects: 0.014666 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.6 MB.
+System memory in use after: 186.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3316.
+Total: 1.687250 ms (FindLiveObjects: 0.180542 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.416917 ms  DeleteObjects: 0.014667 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001833 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.8 MB.
+System memory in use after: 187.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3319.
+Total: 1.328417 ms (FindLiveObjects: 0.142958 ms CreateObjectMapping: 0.059042 ms MarkObjects: 1.113209 ms  DeleteObjects: 0.012542 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003164 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.0 MB.
+System memory in use after: 187.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3322.
+Total: 1.332042 ms (FindLiveObjects: 0.125541 ms CreateObjectMapping: 0.053708 ms MarkObjects: 1.134917 ms  DeleteObjects: 0.016958 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001163 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3325.
+Total: 1.400958 ms (FindLiveObjects: 0.139959 ms CreateObjectMapping: 0.060166 ms MarkObjects: 1.185167 ms  DeleteObjects: 0.014666 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.4 MB.
+System memory in use after: 187.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3328.
+Total: 1.363625 ms (FindLiveObjects: 0.118250 ms CreateObjectMapping: 0.054750 ms MarkObjects: 1.177833 ms  DeleteObjects: 0.011917 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001030 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.6 MB.
+System memory in use after: 187.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3331.
+Total: 1.423417 ms (FindLiveObjects: 0.128166 ms CreateObjectMapping: 0.059917 ms MarkObjects: 1.219583 ms  DeleteObjects: 0.014583 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001016 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.872 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.8 MB.
+System memory in use after: 188.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3334.
+Total: 1.539833 ms (FindLiveObjects: 0.130167 ms CreateObjectMapping: 0.055083 ms MarkObjects: 1.331500 ms  DeleteObjects: 0.022125 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001210 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.0 MB.
+System memory in use after: 188.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3337.
+Total: 1.424916 ms (FindLiveObjects: 0.132000 ms CreateObjectMapping: 0.058916 ms MarkObjects: 1.214542 ms  DeleteObjects: 0.018666 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001924 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.2 MB.
+System memory in use after: 188.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3340.
+Total: 1.422958 ms (FindLiveObjects: 0.151083 ms CreateObjectMapping: 0.061542 ms MarkObjects: 1.195750 ms  DeleteObjects: 0.013792 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.4 MB.
+System memory in use after: 188.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 1.987250 ms (FindLiveObjects: 0.256042 ms CreateObjectMapping: 0.076041 ms MarkObjects: 1.636917 ms  DeleteObjects: 0.016750 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001008 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.5 MB.
+System memory in use after: 188.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3346.
+Total: 1.408541 ms (FindLiveObjects: 0.132084 ms CreateObjectMapping: 0.059292 ms MarkObjects: 1.202708 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.110 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.7 MB.
+System memory in use after: 189.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3349.
+Total: 1.518333 ms (FindLiveObjects: 0.177334 ms CreateObjectMapping: 0.063166 ms MarkObjects: 1.257750 ms  DeleteObjects: 0.019125 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001778 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.9 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3352.
+Total: 1.432875 ms (FindLiveObjects: 0.139000 ms CreateObjectMapping: 0.061292 ms MarkObjects: 1.212458 ms  DeleteObjects: 0.019167 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002083 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3355.
+Total: 1.331708 ms (FindLiveObjects: 0.116584 ms CreateObjectMapping: 0.055584 ms MarkObjects: 1.145709 ms  DeleteObjects: 0.013041 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3358.
+Total: 1.457292 ms (FindLiveObjects: 0.145458 ms CreateObjectMapping: 0.059459 ms MarkObjects: 1.234875 ms  DeleteObjects: 0.016417 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000999 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 189.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3361.
+Total: 1.684375 ms (FindLiveObjects: 0.159958 ms CreateObjectMapping: 0.067416 ms MarkObjects: 1.439250 ms  DeleteObjects: 0.016708 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001191 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.7 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 1.442625 ms (FindLiveObjects: 0.142709 ms CreateObjectMapping: 0.061042 ms MarkObjects: 1.224333 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2851.690864 seconds.
+  path: Assets/Scripts/Obstacle.cs
+  artifactKey: Guid(40c434fca9e754a828eea2d59b280edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Obstacle.cs using Guid(40c434fca9e754a828eea2d59b280edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2610a35058b7110de799781bffeba88b') in 0.009869 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.056 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2764 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3368.
+Total: 1.438875 ms (FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.058833 ms MarkObjects: 1.209333 ms  DeleteObjects: 0.018208 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 389.528652 seconds.
+  path: Assets/Scripts/Obstacle.cs
+  artifactKey: Guid(40c434fca9e754a828eea2d59b280edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Obstacle.cs using Guid(40c434fca9e754a828eea2d59b280edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b53724877b05bb5a9a2a67ff43fe3e') in 0.007742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2764 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 190.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3371.
+Total: 1.389416 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.059666 ms MarkObjects: 1.193250 ms  DeleteObjects: 0.014459 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001042 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2764 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.3 MB.
+System memory in use after: 190.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 1.380208 ms (FindLiveObjects: 0.127333 ms CreateObjectMapping: 0.058291 ms MarkObjects: 1.179125 ms  DeleteObjects: 0.014666 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.102530 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(47c28e1ae9f2d46afa28df07e0453bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(47c28e1ae9f2d46afa28df07e0453bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34ee1bfac0f36d51ed5dbf691e108d3') in 0.163120 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.125 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2764 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.7 MB.
+System memory in use after: 190.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3378.
+Total: 1.456292 ms (FindLiveObjects: 0.129917 ms CreateObjectMapping: 0.055791 ms MarkObjects: 1.244667 ms  DeleteObjects: 0.025042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 64876.054991 seconds.
+  path: Assets/Scripts/Coin.cs
+  artifactKey: Guid(3e4b5e4ee8a3343a0b48c3e6a0ecc5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Coin.cs using Guid(3e4b5e4ee8a3343a0b48c3e6a0ecc5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3df5d8813fc2fe3d0d196ec1b7f604e') in 0.018507 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000981 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.9 MB.
+System memory in use after: 191.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 1.477625 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.254000 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.867278 seconds.
+  path: Assets/Scripts/Coin.cs
+  artifactKey: Guid(3e4b5e4ee8a3343a0b48c3e6a0ecc5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Coin.cs using Guid(3e4b5e4ee8a3343a0b48c3e6a0ecc5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9600b923625f09aa5cc1c36ad9c809d5') in 0.020474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.850843 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  artifactKey: Guid(dfdbfdce29ee246f3a80b71ff8094b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coin.prefab using Guid(dfdbfdce29ee246f3a80b71ff8094b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cc8653fc601cbd4a97f911ba7d2ee8') in 0.175675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.148268 seconds.
+  path: Assets/Scripts/GroundTile.cs
+  artifactKey: Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundTile.cs using Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6be7a55ae07f55306624db140cccd8') in 0.001537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 489.559333 seconds.
+  path: Assets/Scripts/GroundTile.cs
+  artifactKey: Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GroundTile.cs using Guid(74d6ca1c9a0d94186b9c5ba4661ef38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c73bdf4c6dee582a4ac533f4d38b084') in 0.001311 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.1 MB.
+System memory in use after: 191.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3387.
+Total: 1.508958 ms (FindLiveObjects: 0.147792 ms CreateObjectMapping: 0.060833 ms MarkObjects: 1.265458 ms  DeleteObjects: 0.033917 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.745835 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c60e00b8e3c96c6602e18c5adcfcae') in 0.174673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.883577 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  artifactKey: Guid(dfdbfdce29ee246f3a80b71ff8094b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coin.prefab using Guid(dfdbfdce29ee246f3a80b71ff8094b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aaaef285f1527115a5be695c949ca2') in 0.013856 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001041 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.4 MB.
+System memory in use after: 191.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 1.467334 ms (FindLiveObjects: 0.139042 ms CreateObjectMapping: 0.059667 ms MarkObjects: 1.247625 ms  DeleteObjects: 0.019917 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.114531 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d9c33a399cb4c190068f0b45aa29c6') in 0.157529 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001034 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 1.447958 ms (FindLiveObjects: 0.146834 ms CreateObjectMapping: 0.060042 ms MarkObjects: 1.216375 ms  DeleteObjects: 0.023667 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001008 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3398.
+Total: 1.475083 ms (FindLiveObjects: 0.144917 ms CreateObjectMapping: 0.062709 ms MarkObjects: 1.252584 ms  DeleteObjects: 0.013834 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 192.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 1.387958 ms (FindLiveObjects: 0.123750 ms CreateObjectMapping: 0.063917 ms MarkObjects: 1.184791 ms  DeleteObjects: 0.014875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 459.657292 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(9382fb7d711634f1d808e0acf43e3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(9382fb7d711634f1d808e0acf43e3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e374675e20bae7db21f9743940bb2ea') in 0.006929 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.2 MB.
+System memory in use after: 192.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3405.
+Total: 1.440250 ms (FindLiveObjects: 0.142458 ms CreateObjectMapping: 0.058083 ms MarkObjects: 1.224500 ms  DeleteObjects: 0.014333 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001246 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.4 MB.
+System memory in use after: 192.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3408.
+Total: 1.488084 ms (FindLiveObjects: 0.151292 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.255167 ms  DeleteObjects: 0.019417 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.923830 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(9382fb7d711634f1d808e0acf43e3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(9382fb7d711634f1d808e0acf43e3d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23430e942be2243f970b98c3dc8e5ff6') in 0.005872 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001268 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.013 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.6 MB.
+System memory in use after: 192.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 1.449333 ms (FindLiveObjects: 0.156167 ms CreateObjectMapping: 0.064500 ms MarkObjects: 1.212833 ms  DeleteObjects: 0.014750 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001218 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.989 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.8 MB.
+System memory in use after: 193.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3414.
+Total: 1.791167 ms (FindLiveObjects: 0.193958 ms CreateObjectMapping: 0.085042 ms MarkObjects: 1.495500 ms  DeleteObjects: 0.015459 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001010 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.9 MB.
+System memory in use after: 193.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3417.
+Total: 1.914000 ms (FindLiveObjects: 0.148583 ms CreateObjectMapping: 0.061917 ms MarkObjects: 1.687791 ms  DeleteObjects: 0.014959 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.1 MB.
+System memory in use after: 193.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3420.
+Total: 1.475458 ms (FindLiveObjects: 0.140041 ms CreateObjectMapping: 0.059125 ms MarkObjects: 1.260708 ms  DeleteObjects: 0.014375 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.3 MB.
+System memory in use after: 193.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 1.452875 ms (FindLiveObjects: 0.147542 ms CreateObjectMapping: 0.060917 ms MarkObjects: 1.225792 ms  DeleteObjects: 0.017667 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.5 MB.
+System memory in use after: 193.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3426.
+Total: 1.344833 ms (FindLiveObjects: 0.124458 ms CreateObjectMapping: 0.061458 ms MarkObjects: 1.145458 ms  DeleteObjects: 0.012292 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.7 MB.
+System memory in use after: 193.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 1.438750 ms (FindLiveObjects: 0.140791 ms CreateObjectMapping: 0.059625 ms MarkObjects: 1.222416 ms  DeleteObjects: 0.014833 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.842 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.9 MB.
+System memory in use after: 194.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 1.349583 ms (FindLiveObjects: 0.113625 ms CreateObjectMapping: 0.055291 ms MarkObjects: 1.166000 ms  DeleteObjects: 0.013250 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001996 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.1 MB.
+System memory in use after: 194.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 1.374583 ms (FindLiveObjects: 0.127625 ms CreateObjectMapping: 0.058375 ms MarkObjects: 1.163250 ms  DeleteObjects: 0.024375 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001023 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.3 MB.
+System memory in use after: 194.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 1.463375 ms (FindLiveObjects: 0.154125 ms CreateObjectMapping: 0.062542 ms MarkObjects: 1.231042 ms  DeleteObjects: 0.014708 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1708.859660 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  artifactKey: Guid(dfdbfdce29ee246f3a80b71ff8094b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coin.prefab using Guid(dfdbfdce29ee246f3a80b71ff8094b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa14298faa47d3799ff581534e05285a') in 0.171577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.068187 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.306744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.216816 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c500caedd0d234832c9db2710c4e5b3') in 0.018184 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002100 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.219 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 199.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 1.438208 ms (FindLiveObjects: 0.132792 ms CreateObjectMapping: 0.058458 ms MarkObjects: 1.217541 ms  DeleteObjects: 0.028416 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.9 MB.
+System memory in use after: 199.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3445.
+Total: 1.762209 ms (FindLiveObjects: 0.228083 ms CreateObjectMapping: 0.082041 ms MarkObjects: 1.425834 ms  DeleteObjects: 0.025042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1260.327695 seconds.
+  path: Assets/Prefabs/Obstacle 1.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle 1.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953e678854f19e4841ddb5609d3c4ba1') in 0.183954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.830127 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bae863425ff3ab43b69fce92e22e04c') in 0.015797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.388487 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd6c9dfff1af91d2b2a1677292fbad') in 0.014087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.936637 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7148b47cbf4982144d6b0aadfaf1d0d4') in 0.009552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.825140 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754d3f3147b2262976a45f9003dd034') in 0.007417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.737173 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced6405b04f5f010ef6d1dbf40b62202') in 0.007962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.273553 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a531b7499e3bb0f02101ca543a173252') in 0.008148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.420688 seconds.
+  path: Assets/Prefabs/ObstacleTail.prefab
+  artifactKey: Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleTail.prefab using Guid(cab3c5c99e644436c99dacd161957332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb8c8c059d5cc5fb0ea8aeba64c34d3') in 0.007615 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.395 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.8 MB.
+System memory in use after: 200.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 1.441458 ms (FindLiveObjects: 0.135667 ms CreateObjectMapping: 0.059458 ms MarkObjects: 1.221291 ms  DeleteObjects: 0.024084 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2668.091620 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c96070dbace2b6c2dd07e431e57500') in 0.180095 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001130 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.178 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.1 MB.
+System memory in use after: 200.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3453.
+Total: 1.447541 ms (FindLiveObjects: 0.157583 ms CreateObjectMapping: 0.058208 ms MarkObjects: 1.209416 ms  DeleteObjects: 0.021041 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.986512 seconds.
+  path: Assets/Prefabs/GroundTile.prefab
+  artifactKey: Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundTile.prefab using Guid(ade7a2c308e244652a4faa2e888f7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e49f4e42726f5376cc2b160234ff59') in 0.171938 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muang/Documents/muang/Unity/MyGame/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.126 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.3 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3457.
+Total: 1.792417 ms (FindLiveObjects: 0.207042 ms CreateObjectMapping: 0.066500 ms MarkObjects: 1.496625 ms  DeleteObjects: 0.021041 ms)
+
